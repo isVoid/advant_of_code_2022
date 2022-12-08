@@ -1,5 +1,11 @@
 Advent of Code Challenge 2022
 
-Place inputs under inputs/day{X}/{demo|input}.txt. Configure the date and run main.py.
+Run the below:
+
+```bash sh
+python main.py {X} [--demo]
+```
+
+Where `X` is the day to run.
 
 https://adventofcode.com/
