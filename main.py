@@ -2,7 +2,7 @@ import argparse
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run Advent of Code solutions")
-    parser.add_argument("day", help="The day to run")
+    parser.add_argument("day", help="The day to run", type=int)
     parser.add_argument("--demo", action="store_true", help="Run the demo input")
     args = parser.parse_args()
 
