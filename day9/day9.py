@@ -165,5 +165,5 @@ def main(use_demo=False):
         if cmd == "R 17":
             plot(hlocs)
             print()
-    plot(tlocs)
+    # plot(tlocs)
     print(len(tlocs), tlocs)
